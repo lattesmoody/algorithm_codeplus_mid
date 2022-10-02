@@ -21,6 +21,7 @@ int main()
     for (int i = 0; i < (1 << n); i++)
     {
         int sum = 0;
+        // line 25 모르겠음.
         for (int j = 0; j < n; j++)
         {
             if (i & (1 << j))
